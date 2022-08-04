@@ -2,10 +2,13 @@
 
 body {
   margin: 0;
-  font-family: 'Rubik';
-  color: #254cdd;
+  font-weight: 900;
+  font-family: 'Lucida Bright';
+  color: #44d2f9;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('Background.jpeg');
+  background-size: cover;
 }
 
 code {
@@ -41,11 +44,11 @@ input:focus {
 
 button {
   padding: 9px 16px;
-  max-height: 40px;
+  max-height: 70px;
   /*box-shadow: 4px 4px 15px 0 rgb(0 0 0 / 20%);*/
-  border-color: #254cdd;
-  color: #254cdd;
-  background-color: white;
+  border-color: #000000;
+  color: #ffffff;
+  background-color: #ff0000;
   border-radius: 8px;
   align-items: center;
   font-size: 16px;
@@ -60,7 +63,7 @@ button:hover {
 }
 
 #title {
-  padding-top: 32px;
+  padding-top:0px;
 }
 
 .uploadFile {
@@ -88,7 +91,22 @@ button:hover {
 } */
 
 #mintButton {
-  margin-top: 40px;
-  background-color: #254cdd;
-  color:white;
+  margin-top: 10px;
+  border-color: #000000;
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+
+.nav-bar {
+  height: 60px;
+  border-bottom: 1px solid #44d2f9;
+  display: flex;
+  align-items: center;
+  background-color: rgba(80, 78, 78, 0.2);
+}
+
+.nav-wrap {
+  display: flex;
+  justify-content: space-between;
 }
