@@ -11,7 +11,7 @@ const contractABI_WETH = require("../WETH-abi.json");
 //for V4:
 // const contractAddress = "0x905214292564484c46D0B341161a005C73e65C73";
 //for V6:
-const contractAddress = "0x164474f796D7388c5E36576c0a673e1375EB2e45";
+const contractAddress = "0x7011208979532F95f45B82b31814999Bb3BCbdcA";
 const contractWETH = "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619";
 
 
@@ -140,7 +140,7 @@ export const mintNFT = async (url, name, description) => {
   //-----------------
   //Algorithm to draw for JSON Server:
   // var base_string = 'https://zodiaccards-json-server.herokuapp.com/cards/'
-  var base_string = "ipfs://QmWjXiyCnfrfyA8QC9dF9k8FKV24SXjJQGgbe7vFEZe7Wy/"
+  var base_string = "ipfs://QmaDEmXqawRsMSM2SMnEdgiXnTPdeN3uhdRF4wmkFW8htQ/"
 var card_no  = Math.floor(Math.random() * 2022) + 1;
 console.log(card_no);
 var final_url_img = base_string.concat(card_no);
