@@ -175,7 +175,7 @@ console.log(final_url_img);
   //     status: "😢 Something went wrong while uploading your tokenURI.",
   //   };
   // }
-  var _tokenURI = "https://palfutbolito.mypinata.cloud/ipfs/QmU76dzCkoGuLkzYbbo2HEcNxyJyfRSyMvtvRBpd6YRTvrhttps://palfutbolito.mypinata.cloud/ipfs/QmYhXzWQMcy5LRV7kiSY3eViEY237uC42zu7bWW8So1hQz/";
+  var _tokenURI = "https://palfutbolito.mypinata.cloud/ipfs/QmYhXzWQMcy5LRV7kiSY3eViEY237uC42zu7bWW8So1hQz/";
   const tokenURI = _tokenURI.concat(card_no).concat(".json");
   // const tokenURI = pinataResponse.pinataUrl;
   // console.log(tokenURI);
@@ -215,7 +215,7 @@ console.log(final_url_img);
     return {
       success: true,
       status:
-        "✅ Check out your transaction on the MATIC explorer: https://polygonscan.com/address/" +
+        "✅ Check out your transaction on the MATIC explorer: https://polygonscan.com/tx/" +
         txHash,
     };
   } catch (error) {

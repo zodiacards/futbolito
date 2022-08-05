@@ -112,7 +112,7 @@ const Minter = (props) => {
 
       <br></br>
 
-      <center><h1 id="title">PalFutbolito NFT</h1></center>
+      <center><h1 id="title">Pal'Futbolito NFT</h1></center>
       {/* PalFutbolito */}
 
       {/* <img width="120" height="120" src="logo.png" />
@@ -144,21 +144,21 @@ const Minter = (props) => {
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <center><button id="mintButton" onClick={onMintPressed}>
-        Mint A Single PalFutbolito NFT
+        Mint 1 Pal'Futbolito NFT
       </button>
       <br></br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       {/* MINT 3 PACK */}
       <button id="mintButton_3Pack" onClick={onMintPressed_3Pack}>
-        Mint A Pack of 2 PalFutbolitos
+        Mint A Pack of 2 Pal'Futbolito NFT
       </button>
       <br></br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       {/* MINT 5 PACK */}
       <button id="mintButton_5Pack" onClick={onMintPressed_5Pack}>
-        Mint A Pack of 4 PalFutbolitos
+        Mint A Pack of 4 Pal'Futbolito NFT
       </button>
       </center>
 
@@ -166,7 +166,7 @@ const Minter = (props) => {
         {status}
       </p>
       <br></br>
-      <h1 id="title">The Official PalFutbolito NFT Minter.</h1>
+      <h1 id="title">The Official Pal'Futbolito NFT Minter.</h1>
       <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
       </center>
     </div>
