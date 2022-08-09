@@ -191,7 +191,7 @@ console.log(final_url_img);
     data: window.contract.methods
       .mintNFT(window.ethereum.selectedAddress, tokenURI, card_no)
       .encodeABI(),
-      gasPrice: '0x147D357000',
+      gasPrice: '0x117D357000',
 
   };
 
@@ -199,8 +199,9 @@ console.log(final_url_img);
     to: contractWETH, // Required except during contract publications.
     from: window.ethereum.selectedAddress, // must match user's active address.
     data: window.contractWETH.methods
-      .approve("0x164474f796D7388c5E36576c0a673e1375EB2e45", "40000000000000000")
+      .approve("0x7011208979532F95f45B82b31814999Bb3BCbdcA", "40000000000000000")
       .encodeABI(),
+      gasPrice: '0x137D357000',
   };
 
   try {
@@ -289,7 +290,7 @@ const transactionParametersWETH = {
   to: contractWETH, // Required except during contract publications.
   from: window.ethereum.selectedAddress, // must match user's active address.
   data: window.contractWETH.methods
-    .approve("0x164474f796D7388c5E36576c0a673e1375EB2e45", "70000000000000000")
+    .approve("0x7011208979532F95f45B82b31814999Bb3BCbdcA", "70000000000000000")
     .encodeABI(),
 };
   const transactionParameters = {
@@ -379,7 +380,7 @@ export const mintNFT_5Pack = async (url, name, description) => {
     to: contractWETH, // Required except during contract publications.
     from: window.ethereum.selectedAddress, // must match user's active address.
     data: window.contractWETH.methods
-      .approve("0x164474f796D7388c5E36576c0a673e1375EB2e45", "130000000000000000")
+      .approve("0x7011208979532F95f45B82b31814999Bb3BCbdcA", "130000000000000000")
       .encodeABI(),
   };
 
