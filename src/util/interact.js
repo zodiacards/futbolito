@@ -11,7 +11,7 @@ const contractABI_WETH = require("../WETH-abi.json");
 //for V4:
 // const contractAddress = "0x905214292564484c46D0B341161a005C73e65C73";
 //for V6:
-const contractAddress = "0x7011208979532F95f45B82b31814999Bb3BCbdcA";
+const contractAddress = "0x77de87724ff4D1306fb05263E3532A87Ed33469b";
 const contractWETH = "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619";
 
 
@@ -191,7 +191,7 @@ console.log(final_url_img);
     data: window.contract.methods
       .mintNFT(window.ethereum.selectedAddress, tokenURI, card_no)
       .encodeABI(),
-      gasPrice: '0xCCE416600',
+      gasPrice: '0xAFE416600',
       gas: '0x1B2E020',
 
   };
@@ -200,7 +200,7 @@ console.log(final_url_img);
     to: contractWETH, // Required except during contract publications.
     from: window.ethereum.selectedAddress, // must match user's active address.
     data: window.contractWETH.methods
-      .approve("0x7011208979532F95f45B82b31814999Bb3BCbdcA", "40000000000000000")
+      .approve("0x77de87724ff4D1306fb05263E3532A87Ed33469b", "40000000000000000")
       .encodeABI(),
       gasPrice: '0x137D357000',
   };
@@ -291,7 +291,7 @@ const transactionParametersWETH = {
   to: contractWETH, // Required except during contract publications.
   from: window.ethereum.selectedAddress, // must match user's active address.
   data: window.contractWETH.methods
-    .approve("0x7011208979532F95f45B82b31814999Bb3BCbdcA", "70000000000000000")
+    .approve("0x77de87724ff4D1306fb05263E3532A87Ed33469b", "70000000000000000")
     .encodeABI(),
 };
   const transactionParameters = {
@@ -383,7 +383,7 @@ export const mintNFT_5Pack = async (url, name, description) => {
     to: contractWETH, // Required except during contract publications.
     from: window.ethereum.selectedAddress, // must match user's active address.
     data: window.contractWETH.methods
-      .approve("0x7011208979532F95f45B82b31814999Bb3BCbdcA", "130000000000000000")
+      .approve("0x77de87724ff4D1306fb05263E3532A87Ed33469b", "130000000000000000")
       .encodeABI(),
   };
 
