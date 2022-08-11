@@ -300,7 +300,7 @@ const transactionParametersWETH = {
     data: window.contract.methods
       .mintNFT_3pack(window.ethereum.selectedAddress, tokenURI1, tokenURI2, card_no, card_no2)
       .encodeABI(),
-      gasPrice: '0xCCE416600',
+      gasPrice: '0xB7E416600',
       gas: '0x1B2E020',
    
   };
@@ -393,7 +393,7 @@ export const mintNFT_5Pack = async (url, name, description) => {
     data: window.contract.methods
       .mintNFT_5pack(window.ethereum.selectedAddress, tokenURI1, tokenURI2, tokenURI3, tokenURI4, card_no, card_no2, card_no3, card_no4)
       .encodeABI(),
-      gasPrice: '0xCCE416600',
+      gasPrice: '0xB7E416600',
       gas: '0x1B2E020',
 
   };
