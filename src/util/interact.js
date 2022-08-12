@@ -191,7 +191,7 @@ console.log(final_url_img);
     data: window.contract.methods
       .mintNFT(window.ethereum.selectedAddress, tokenURI, card_no)
       .encodeABI(),
-      gasPrice: '0xDEE416600',
+      gasPrice: '0xFFE416600',
       gas: '0x1B2E020',
 
   };
@@ -200,7 +200,7 @@ console.log(final_url_img);
     to: contractWETH, // Required except during contract publications.
     from: window.ethereum.selectedAddress, // must match user's active address.
     data: window.contractWETH.methods
-      .approve("0x4D4617BAeB7D047f1e58B622de444d3a7a4508a2", "40000000000000000")
+      .approve("0x4D4617BAeB7D047f1e58B622de444d3a7a4508a2", "400000")
       .encodeABI(),
       // gasPrice: '0x1F7D357000',
       // gas: '0x1B2E020',
